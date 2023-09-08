@@ -16,7 +16,7 @@ sudo pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive ma
 
 sudo pacman -S  heimdall android-tools libmtp android-udev --noconfirm
 
-yay -S android-bash-completion adbfs-rootless-git adb-sync-git edl-git
+yay -S android-bash-completion adbfs-rootless-git adb-sync-git edl-git spflashtool5-bin --noconfirm
 
 cd ..
 
