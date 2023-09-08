@@ -1,0 +1,93 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Russian
+# translator : anonymous_prodject
+# notes      : v.1.1
+
+
+locale=ru_RU.UTF-8
+font=cyr-sun16
+
+
+#txtexit="Exit"
+#txtback="Back"
+#txtignore="Ignore"
+
+txtselectserver="Выберите сервер исходников :"
+
+txtmainmenu="Главное меню"
+txtlanguage="Выбор языка"
+txtsetkeymap="Установка раскладки клавиатуры"
+txteditor="Выбор редактора текста"
+txtdiskpartmenu="Редактирование разделов"
+txtselectpartsmenu="Выбор разделов для установки и установка"
+txthelp="Помощь"
+txtchangelog="Лог"
+txtreboot="Перезагрузка"
+
+txtautoparts="Автоматическая разметка"
+txteditparts="Редактирование разделов"
+
+txtautopartsconfirm="Выбранное устройство : %1\n\nВсе данные будут удалены ! \n\nПродолжить ?"
+
+txtautopartclear="Очистить все данные на разделе"
+txtautopartcreate="Создание раздела %1"
+txthybridpartcreate="Выбрать структуру MBR"
+txtautopartsettype="Выбрать тип раздела %1"
+
+txtselectdevice="Выберите раздел %1 :"
+txtselecteddevices="Выбранные разделы :"
+
+txtformatmountmenu="Форматирование и монтирование"
+txtformatdevices="Форматирование разделов"
+txtformatdevice="Форматирование раздела"
+txtmount="Монтирование"
+#txtunmount="Unmount"
+txtmountdesc="Установка или настройка"
+
+txtformatdeviceconfirm="Внимание, все данные на выбранных разделах будут удалены ! \nФорматировать разделы ?"
+
+txtselectpartformat="Выберите формат раздела %1 :"
+txtformatingpart="Форматировать раздел %1 как"
+txtcreateluksdevice="Создать luks устройство :"
+txtopenluksdevice="Открытиь luks устройство :"
+txtluksdevicecreated="Luks устройство создано!"
+
+txtinstallmenu="Настройка"
+
+txtarchinstallmenu="Меню настройки Arch Linux"
+txtrungrubmakeconfig="Создать grub-mkconfig ?"
+
+txteditmirrorlist="Редактор mirrorlist"
+txtinstallarchlinux="Установка Arch Linux"
+txtconfigarchlinux="Настройка Arch Linux"
+
+txtsethostname="Установка имени системы"
+txtsetlocale="Установка локации"
+txtsettime="Установка времени"
+txtsetrootpassword="Установка пароля root"
+
+txtuseutcclock="Использовать UTC в аппаратных часах ?"
+
+txtoptional="Дополнительно"
+txtrecommandeasyinst="Рекомендуется для быстрой установки"
+txtset="Установить %1"
+txtgenerate="Генерировать %1"
+txtedit="Редактировать %1"
+txtinstall="Установка %1"
+txtenable="Включить %1"
+
+txtgrubluksdetected="Раздел зашифрован !\n\nДобавить cryptdevice= в GRUB_CMDLINE_LINUX в /etc/default/grub ?"
+
+
+txtpressanykey="Нажмите любую клавишу для продолжения."
+
+txtinstallosprober="os-prober необходим для загрузки нескольких систем.\nУстановить os-prober ?"
+txtefibootmgr="efibootmgr необходим для поддержки EFI."
+
+txtarchdidesc="Установка рабочего окружения"
+txtinstallarchdi="Arch Linux Desktop поможет установить рабочее окружение.\n\nВы хотите запустить установщик?. \n\nУстановщик имеет следующие зависимости : wget and libnewt.\n\npacstrap wget libnewt ?"
+txtarchdiinstallandlaunch="Установить и запустить archdi"
+txtarchdiinstall="Установка archdi"
+txtarchdilaunch="Запуск archdi"

@@ -1,0 +1,22 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+graphc_drivers='basestrap -i /mnt xf86-video-intel mesa mesa-demos lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet libva-intel-driver lib32-libva-intel-driver tbb whois acpica enblend-enfuse ibus-libpinyin igsc intel-compute-runtime intel-gmmlib intel-gpu-tools intel-graphics-compiler intel-media-driver intel-media-sdk intel-metee intel-metee-doc intel-mkl intel-mkl-static intel-opencl-clang libchewing libmfx libva-utils onednn openimagedenoise openipmi openvkl presage python-intelhex rkcommon sdcc tipp10 zh-autoconvert qt6-shadertools spirv-tools vulkan-extra-layers vulkan-extra-tools vulkan-headers vulkan-html-docs vulkan-mesa-layers vulkan-validation-layers python-glfw vkd3d lib32-vkd3d lib32-vulkan-mesa-layers lib32-vulkan-validation-layers spirv-tools freeglut ftgl gl2ps glslang gtkglext opengl-man-pages python-opengl blur-effect gambas3-gb-opengl gambas3-gb-opengl-glsl gambas3-gb-opengl-glu gambas3-gb-opengl-sge gambas3-gb-qt5-opengl glava glbinding glm guichan libvdpau-va-gl mupdf-gl opencsg python-glfw soil virtualgl lib32-freeglut lib32-glu lib32-libepoxy mesa mesa-demos lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader amf-headers libteam distorm hip-runtime-amd hsa-amd-aqlprofile-bin miopen-hip nvtop python-distorm python-pyamdgpuinfo xf86-video-amdgpu network-manager-applet mesa-utils mesa-vdpau vulkan-mesa-layers lib32-libva-mesa-driver lib32-mesa-demos lib32-mesa-utils lib32-mesa-vdpau lib32-vulkan-mesa-layers vulkan-tools vkd3d optimus-manager optimus-manager-plasma --noconfirm'
+optimus="systemctl enable optimus-manager"

@@ -1,0 +1,7 @@
+#!/bin/bash
+systemctl --user mask kde-baloo.service
+systemctl --user mask plasma-baloorunner.service
+balooctl suspend
+balooctl disable
+balooctl purge
+kdebugdialog5

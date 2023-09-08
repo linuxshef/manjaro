@@ -1,0 +1,20 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+update='pacman -Syy'
+
+desktop='basestrap -i /mnt xorg xorg-server xdg-user-dirs cups xdg-utils firefox lxqt breeze-icons sddm sddm-kcm bluez bluez-utils libpamac libpamac-flatpak-plugin libpamac-snap-plugin pamac-cli pamac-gtk webapp-manager-manjaro --noconfirm'
+
+displaymanager='systemctl enable sddm --force'

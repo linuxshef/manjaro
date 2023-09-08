@@ -1,0 +1,23 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+graphc_drivers='basestrap -i /mnt xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader xf86-video-nouveau nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet libva-intel-driver lib32-libva-intel-driver libva-intel-driver lib32-libva-intel-driver tbb whois acpica enblend-enfuse ibus-libpinyin igsc intel-compute-runtime intel-gmmlib intel-gpu-tools intel-graphics-compiler intel-media-driver intel-media-sdk intel-metee intel-metee-doc intel-mkl intel-mkl-static intel-opencl-clang libchewing libmfx libva-utils onednn openimagedenoise openipmi openvkl presage python-intelhex rkcommon sdcc tipp10 zh-autoconvert lib32-libva-intel-driver lib32-vulkan-intel libva-intel-driver qt6-shadertools spirv-tools vulkan-extra-layers vulkan-extra-tools vulkan-headers vulkan-html-docs vulkan-swrast vulkan-validation-layers python-glfw vkd3d lib32-vkd3d lib32-vulkan-validation-layers spirv-tools freeglut ftgl gl2ps glslang gtkglext opengl-man-pages python-opengl blur-effect gambas3-gb-opengl gambas3-gb-opengl-glsl gambas3-gb-opengl-glu gambas3-gb-opengl-sge gambas3-gb-qt5-opengl glava glbinding glm guichan libvdpau-va-gl mupdf-gl opencsg python-glfw soil virtualgl lib32-freeglut lib32-glu lib32-libepoxy vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader libva-intel-driver lib32-libva-intel-driver network-manager-applet optimus-manager optimus-manager-plasma --noconfirm'

@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+
+
+
+
+base='basestrap -i /mnt base base-devel linux63 linux63-acpi_call linux63-headers linux-firmware dosfstools btrfs-progs intel-ucode amd-ucode iucode-tool archlinux-keyring manjaro-keyring manjaro-tools-base networkmanager dhcpcd dhclient vim nano bluez bluez-utils mhwd mhwd-db --noconfirm'

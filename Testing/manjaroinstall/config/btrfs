@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+arch-chroot /mnt /bin/bash -c "sed -i s/'GRUB_DEFAULT=saved'/'GRUB_DEFAULT=0'/g /etc/default/grub"
+arch-chroot /mnt /bin/bash -c "sed -i s/'GRUB_SAVEDEFAULT=true'/'GRUB_SAVEDEFAULT=false'/g /etc/default/grub"

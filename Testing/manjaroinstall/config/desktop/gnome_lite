@@ -1,0 +1,18 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+update='pacman -Syy'
+
+desktop='basestrap -i /mnt xorg xorg-server gnome cups nautilus firefox gnome-terminal firefox gdm --noconfirm'
+
+displaymanager='systemctl enable gdm --force'

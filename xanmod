@@ -4,7 +4,7 @@ clear
 
 sudo rm /etc/makepkg.conf
 
-sudo mv makepkg/optimized-O3/makepkg.conf /etc/
+sudo mv Makepkg/optimized-O3/makepkg.conf /etc/
 
 sudo pacman-mirrors --fasttrack
 

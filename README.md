@@ -66,8 +66,42 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./xanmod
 git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./chrootfix
 
 
+----------------------------------------------
+
+Установка драйверов NVIDIA
 
 
+1) Открыть терминал
+
+2) Скопировать и вставить эту команду
+
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ;
 
 
+----------------------------------------------
 
+
+Установка драйверов AMD
+
+
+1) Открыть терминал
+
+2) Скопировать и вставить эту команду
+
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ;
+
+
+----------------------------------------------
+
+
+Установка драйверов INTEL
+
+
+1) Открыть терминал
+
+2) Скопировать и вставить эту команду
+
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ;
+
+
+----------------------------------------------
