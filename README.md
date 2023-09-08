@@ -115,3 +115,28 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./intel
 2) Скопировать и вставить эту команду
 
 git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; android_firmware
+
+
+----------------------------------------------
+
+
+Игры и гейминг , преднастройка системы ДЛЯ ИГР
+
+
+
+1) Открыть терминал
+
+2) Скопировать и вставить эту команду
+
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./gamemode
+
+
+
+
+
+
+
+
+
+
+
