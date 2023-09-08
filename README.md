@@ -53,12 +53,17 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./makepkgfix
 git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./xanmod
 
 
+----------------------------------------------
 
 
+Фикс для попадания в Chroot
 
 
+1) Открыть терминал
 
+2) Скопировать и вставить эту команду
 
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./chrootfix
 
 
 
