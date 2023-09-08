@@ -1,0 +1,23 @@
+#!/bin/bash
+
+clear
+
+sudo rm /etc/makepkg.conf
+
+sudo mv makepkg/optimized-O3/makepkg.conf /etc/
+
+sudo pacman-mirrors --fasttrack
+
+sudo pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
+
+sudo pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive make cmake yay --noconfirm
+
+yay -S linux-xanmod-bin --noconfirm
+
+sudo mkinitcpio -p linux-xanmod
+
+sudo mkinitcpio -p linux-xanmod
+
+sudo update-grub
+
+reboot

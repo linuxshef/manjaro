@@ -1,0 +1,106 @@
+#!/bin/bash
+clear
+echo '
+
+
+                           Welcome GPG-FIX !
+
+             |-------------------------------------------|
+             |                                           |
+             |                                           |
+             |          Fix GPG Manjaro -> (  1  )       |
+             |                                           |
+             |                                           |
+             |         Fix GPG Archlinux -> (  2  )      |
+             |                                           |
+             |                                           |
+             |      Fix GPG BlackArch + Manjaro  (  3  ) |
+             |                                           |
+             |                                           |
+             |      Fix GPG BlackArch + Manjaro  (  4  ) |
+             |                                           |
+             |                                           |
+             |-------------------------------------------|
+
+
+'
+    echo -n "
+
+                          -> Enter  : "
+                
+      read main_menu
+      case "$main_menu" in
+       "1" )
+sudo pacman-mirrors --fasttrack
+sudo pacman -Sy gnupg archlinux-keyring manjaro-keyring --noconfirm
+
+sudo rm -r /etc/pacman.d/gnupg
+
+sudo pacman -Sy gnupg archlinux-keyring manjaro-keyring --noconfirm
+
+sudo pacman-key --init
+
+sudo pacman-key --populate archlinux manjaro
+
+sudo pacman-key --refresh-keys
+
+sudo pacman -Sy gnupg archlinux-keyring manjaro-keyring --noconfirm
+          ;;
+        "2")
+sudo pacman -Sy gnupg archlinux-keyring --noconfirm
+
+sudo rm -r /etc/pacman.d/gnupg
+
+sudo pacman -Sy gnupg archlinux-keyring --noconfirm
+
+sudo pacman-key --init
+
+sudo pacman-key --populate archlinux
+
+sudo pacman-key --refresh-keys
+
+sudo pacman -Sy gnupg archlinux-keyring --noconfirm
+           ;;
+         "3" )
+sudo pacman-mirrors --fasttrack 
+sudo pacman -Sy gnupg archlinux-keyring manjaro-keyring blackarch-keyring --noconfirm
+
+sudo rm -r /etc/pacman.d/gnupg
+
+sudo pacman -Sy gnupg archlinux-keyring manjaro-keyring blackarch-keyring --noconfirm
+
+sudo pacman-key --init
+
+sudo pacman-key --populate archlinux manjaro blackarch
+
+sudo pacman-key --refresh-keys
+
+sudo pacman -Sy gnupg archlinux-keyring manjaro-keyring blackarch-keyring --noconfirm
+           ;;
+         "4" )
+sudo pacman -Sy gnupg archlinux-keyring blackarch-keyring --noconfirm
+
+sudo rm -r /etc/pacman.d/gnupg
+
+sudo pacman -Sy gnupg archlinux-keyring blackarch-keyring --noconfirm
+
+sudo pacman-key --init
+
+sudo pacman-key --populate archlinux blackarch
+
+sudo pacman-key --refresh-keys
+
+sudo pacman -Sy gnupg archlinux-keyring blackarch-keyring --noconfirm
+      esac
+echo '
+
+             |-------------------------------------------|
+             |                                           |
+             |                                           |
+             |                                           |
+             |                   Done !  :)              |
+             |                                           |
+             |                                           |
+             |                                           |
+             |-------------------------------------------|
+'

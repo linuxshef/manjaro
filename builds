@@ -2,15 +2,15 @@
 
 clear
 
-rm /etc/makepkg.conf
+sudo rm /etc/makepkg.conf
 
-mv makepkg/optimized-O3/makepkg.conf /etc/
+sudo mv makepkg/optimized-O3/makepkg.conf /etc/
 
-pacman-mirrors --fasttrack
+sudo pacman-mirrors --fasttrack
 
-pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
+sudo pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
 
-pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive make cmake --noconfirm
+sudo pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive make cmake --noconfirm
 
 
 echo '
