@@ -131,9 +131,17 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; android_firmwa
 git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./gamemode
 
 
+----------------------------------------------
 
 
+Решение проблем со звуком и устновка наилучшего звука в Manjaro
 
+
+1) Открыть терминал
+
+2) Скопировать и вставить эту команду
+
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./soundfix
 
 
 
