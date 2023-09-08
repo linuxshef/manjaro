@@ -1,4 +1,8 @@
 #!/bin/bash
 git add *
-git commit -m 'new update'
+git commit -m 'add android' 'new update'
+git push
+#!/bin/bash
+git add *
+git commit -m 'add android'
 git push
