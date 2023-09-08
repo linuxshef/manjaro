@@ -25,4 +25,7 @@ echo '
 
 '
 cd ..
+
 rm -Rf manjaro
+
+reboot
