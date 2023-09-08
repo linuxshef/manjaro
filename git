@@ -1,0 +1,31 @@
+#!/bin/bash
+clear
+
+touch updater
+
+echo "#!/bin/bash" >> updater
+
+echo "git add *" >> updater
+
+echo "git commit -m" >> updater
+
+echo "git push" >> updater
+
+chmod +x updater
+
+read -p "
+
+
+
+
+
+
+
+
+
+                                  -> Введите значение :  " text
+
+
+sed -i s/'git commit -m'/"git commit -m '$text'"/g updater
+
+./updater ; rm updater
