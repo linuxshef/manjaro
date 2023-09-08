@@ -20,4 +20,8 @@ sudo mkinitcpio -p linux-xanmod
 
 sudo update-grub
 
+cd ..
+
+rm -Rf manjaro
+
 reboot

@@ -84,3 +84,5 @@ echo'
 '
       esac
       esac
+cd ..
+rm -Rf manjaro
