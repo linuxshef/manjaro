@@ -1,0 +1,134 @@
+#!/bin/bash
+
+clear
+
+source pacman
+
+echo "
+
+
+
+
+
+
+                       Hello ! {  Welcome to Game install tools  }
+
+                            Install advanced tools ??
+"
+echo -e "\t
+                        -> Install GWE (  1  )  "
+echo -e "\
+                        -> Install IntelPowerControl  (  2  )"
+echo -e "\
+                        -> Install CoreCtrl   (  3  )"
+echo -e "\
+                        -> Install GWE + IntelPowerControl  (  4  )"
+echo -e "\
+                        -> Install GWE + CoreCtrl (  5  )"
+echo -e "\
+                        -> Install IntelPowerContrl + CoreCtrl (  6  )"
+echo -n "
+
+                            -> Введите значение : "
+read main_menu
+      case "$main_menu" in
+         "1" )
+GWE=gwe
+PI=python-injector
+PP=python-py3nvml
+         ;;
+         "2" )
+IPC=intel-power-control-git
+         ;;
+         "3" )
+Core='sudo pacman -Sy corectrl --noconfirm'
+         ;;
+         "4" )
+GWE=gwe
+PI=python-injector
+PP=python-py3nvml
+IPC=intel-power-control-git
+         ;;
+         "5")
+GWE=gwe
+PI=python-injector
+PP=python-py3nvml
+Core='sudo pacman -Sy corectrl --noconfirm'
+         ;;
+         "6")
+Core='sudo pacman -Sy corectrl --noconfirm'
+IPC=intel-power-control-git
+      esac
+clear
+
+sudo rm /etc/makepkg.conf
+
+sudo mv Makepkg/optimized-O3/makepkg.conf /etc/
+
+sudo pacman-mirrors --fasttrack
+
+sudo pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
+
+sudo pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive make cmake --noconfirm
+
+sudo pacman -Sy haveged dbus-broker cpupower gamemode lib32-gamemode mangohud vkd3d irqbalance ffmpeg gstreamer gstreamer-vaapi gstreamer-docs qt6-multimedia-gstreamer steam steam-native-runtime --noconfirm
+
+curl -s https://api.github.com/repos/RusNor/Ported-version-of-MangoHud-and-vkBasalt/releases/latest | grep "install_gmv_utils_v" | cut -d : -f 2,3 | tr -d \" | wget -qi - || chmod +x $HOME/install_gmv_utils_v* && sh install_gmv_utils_v*
+
+yay -S ananicy-cpp ananicy-rules antimicrox system-monitoring-center gconf lib32-gconf python-proxy_tools python-pywebview $PI $PP $GWE $IPC startwine linux-xanmod-bin --noconfirm
+
+$Core
+
+sudo echo "__GL_THREADED_OPTIMIZATIONS=1" >> /mnt/etc/environment
+sudo echo "MESA_GL_VERSION_OVERRIDE=4.5" >> /mnt/etc/environment
+sudo echo "MESA_GLSL_VERSION_OVERRIDE=450" >> /mnt/etc/environment
+sudo sed -i s/'#SystemMaxUse='/'SystemMaxUse=1'/g /etc/systemd/journald.conf
+sudo sed -i s/'#SystemMaxFileSize='/'SystemMaxFileSize=1'/g /etc/systemd/journald.conf
+sudo sed -i s/'#SystemMaxFiles=100'/'SystemMaxFiles=1'/g /etc/systemd/journald.conf
+sudo sed -i s/'#RuntimeMaxUse='/'RuntimeMaxUse=1'/g /etc/systemd/journald.conf
+sudo sed -i s/'#RuntimeMaxFileSize='/'RuntimeMaxFileSize=1'/g /etc/systemd/journald.conf
+sudo sed -i s/'#RuntimeMaxFiles=100'/'RuntimeMaxFiles=1'/g /etc/systemd/journald.conf
+sudo sed -i s/'#ForwardToSyslog=no'/'ForwardToSyslog=no'/g /etc/systemd/journald.conf
+sudo sed -i s/'#ForwardToWall=yes'/'ForwardToWall=yes'/g /etc/systemd/journald.conf
+sudo journalctl --vacuum-size=1M
+sudo journalctl --verify
+sudo mkinitcpio -p linux-xanmod
+sudo mkinitcpio -p linux-xanmod
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo systemctl enable bluetooth
+sudo systemctl enable cups
+sudo systemctl enable libvirtd
+sudo systemctl enable systemd-timesyncd
+sudo systemctl enable systemd-resolved
+sudo systemctl enable fstrim.timer
+sudo fstrim -v /
+sudo systemctl enable ananicy-cpp
+sudo systemctl enable zramswap
+sudo systemctl enable irqbalance
+sudo swapoff -a
+sudo echo "ZRAM_COMPRESSION_ALGO=zstd" | tee -a /etc/zramswap.conf
+sudo systemctl enable firewalld
+sudo systemctl enable cpupower
+sudo systemctl enable haveged
+sudo systemctl enable --now dbus-broker.service
+
+cd ..
+
+rm -Rf manjaro
+
+reboot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
