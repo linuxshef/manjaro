@@ -2,6 +2,8 @@
 
 clear
 
+source pacman
+
 sudo rm /etc/makepkg.conf
 
 sudo mv Makepkg/optimized-O3/makepkg.conf /etc/
@@ -10,7 +12,7 @@ sudo pacman-mirrors --fasttrack
 
 sudo pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
 
-sudo pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive make cmake --noconfirm
+sudo pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive make cmake clang ninja libtool --noconfirm
 
 
 echo '

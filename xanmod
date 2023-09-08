@@ -2,6 +2,8 @@
 
 clear
 
+source pacman
+
 sudo rm /etc/makepkg.conf
 
 sudo mv Makepkg/optimized-O3/makepkg.conf /etc/

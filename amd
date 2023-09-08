@@ -1,6 +1,8 @@
 #!/bin/bash
 clear
 
+source pacman
+
 sudo pacman-mirrors --fasttrack
 
 sudo pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
