@@ -105,3 +105,13 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./intel
 
 
 ----------------------------------------------
+
+
+Прошивка Андроид , Fastboot ,ADB . Полный набор
+
+
+1) Открыть терминал
+
+2) Скопировать и вставить эту команду
+
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; android_firmware
