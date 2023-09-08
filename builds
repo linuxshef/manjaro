@@ -4,11 +4,13 @@ clear
 
 rm /etc/makepkg.conf
 
-mv config/makepkg/optimized-O3/makepkg.conf /etc/
+mv makepkg/optimized-O3/makepkg.conf /etc/
 
 pacman-mirrors --fasttrack
 
-pacman -Syy --noconfirm base-devel extra-cmake-modules ccache meson autoconf-archive make cmake
+pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
+
+pacman -Syy base-devel extra-cmake-modules ccache meson autoconf-archive make cmake --noconfirm
 
 
 echo '

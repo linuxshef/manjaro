@@ -1,6 +1,6 @@
 #!/bin/bash
 rm /etc/makepkg.conf
-mv config/makepkg/optimized-O3/makepkg.conf /etc/
+mv makepkg/optimized-O3/makepkg.conf /etc/
 cd ..
 #rm -Rf
 
