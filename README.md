@@ -88,7 +88,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ;
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ;
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./amd
 
 
 ----------------------------------------------
@@ -101,7 +101,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ;
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ;
+git clone https://github.com/linuxshef/manjaro.git ; cd manjaro ; ./intel
 
 
 ----------------------------------------------
