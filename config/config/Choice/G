@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GWE=gwe
+arch-chroot /mnt /bin/bash -c "systemctl enable cpupower"
+rm /mnt/etc/default/cpupower
+mv /config/cpupower/cpupower /mnt/etc/default/
+PI=python-injector
+PP=python-py3nvml

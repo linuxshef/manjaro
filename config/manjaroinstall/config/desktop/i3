@@ -1,0 +1,16 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+update='pacman -Syy'
+
+desktop='basestrap -i /mnt xorg xorg-server xorg-xinit cups xdg-utils xdg-user-dirs i3-gaps i3blocks i3status dmenu rofi xfce4-terminal firefox nitrogen picom network-manager-applet blueman bluez bluez-utils libpamac libpamac-flatpak-plugin libpamac-snap-plugin pamac-cli pamac-gtk webapp-manager-manjaro --noconfirm'

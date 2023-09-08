@@ -1,0 +1,103 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Turkish
+# translator : c0b41 (cobaimelan@protonmail.ch)
+# notes      : current translation
+
+
+locale=tr_TR.UTF-8
+font=LatArCyrHeb-16
+
+
+txtexit="Çıkış"
+txtback="Geri"
+txtignore="Yoksay"
+
+txtselectserver="Kaynak için yansı sunucu seç:"
+
+txtmainmenu="Ana Menü"
+txtlanguage="Dil"
+txtsetkeymap="Klavye düzenini seç"
+txteditor="Düzenleyici"
+txtdiskpartmenu="Disk bölümleme"
+txtselectpartsmenu="Bölümleri seç"
+txthelp="Yardım"
+txtchangelog="Değişiklikler"
+txtreboot="Yeniden başlat"
+
+txtautoparts="Otomatik bölümle"
+txteditparts="Bölümleri düzenle"
+
+txtautopartsconfirm="Seçilen cihaz: %1\n\nTüm verileriniz silenecek! \n\nDevam?"
+
+txtautopartclear="Tüm bölüm verilerini temizle"
+txtautopartcreate="%1 bölümü oluştur"
+txthybridpartcreate="Karma MBR oluştur"
+txtautopartsettype="Bölüm türünü %1 olarak ayarla"
+
+txtselectdevice="%1 bölümü seç:"
+txtselecteddevices="Seçilen bölümler:"
+
+txtformatmountmenu="Biçimlendir ve bağla"
+txtformatdevices="Cihazları biçimlendir"
+txtformatdevice="Cihazı biçimlendir"
+txtmount="Bağla"
+txtunmount="Bağı ayır"
+txtmountdesc="Bölümleri bağlayıp kuruluma devam edin"
+
+txtformatdeviceconfirm="Uyarı, seçilen cihazlardaki tüm veriler silinecektir! \n Cihazları biçimlendir?"
+
+txtselectpartformat="%1 sürücüsü için bölüm biçimini seç:"
+txtformatingpart="%1 bölümünü biçimlendir"
+txtcreateluksdevice="LUKS sürücüsü oluştur:"
+txtopenluksdevice="LUKS sürücüsü aç:"
+txtluksdevicecreated="LUKS sürücüsü oluşturuldu!"
+
+txtinstallmenu="Kurulum Menüsü"
+
+txtarchinstallmenu="Arch Kurulum Menüsü"
+
+txteditmirrorlist="Sunucu yansı listesini düzenle"
+txtinstallarchlinux="Arch Linux Kur"
+txtconfigarchlinux="Arch Linux Ayalar"
+
+txtsethostname="Bilgisayar adını gir"
+txtsetfont="Yazı tipini seç"
+txtsetlocale="Konum seç"
+txtsettime="Zamanı seç"
+txtsetrootpassword="Kök parolasını belirle"
+
+txtuseutcclock="UTC donanım saatini kullan?"
+
+txtbootloader="Önyükleyici"
+txtbootloadermenu="Önyükleyiciyi seç"
+
+txtefibootmgr="efibootmgr UEFI bilgisayar için gereklidir."
+
+txtbootloadergrubmenu="Grub Kurulum Menüsü"
+txtrungrubmakeconfig="grub-mkconfig çalıştır ?"
+txtgrubluksdetected="Kök bölümü şifrelendi! \n\ cryptdevice= ve GRUB_CMDLINE_LINUX içerisine /etc/default/grub ekle?"
+
+txtbootloadersyslinuxmenu="Syslinux Kurulum Menüsü"
+txtsyslinuxaddefibootmgr="EFI kurulumu efibootmgr gerektirir"
+txtsyslinuxaddgptfdisk="GPT diski gptfdisk gerektirir"
+txtsyslinuxaddmtools="FAT önyükleme bölümü mtools gerektirir"
+
+txtbootloaderrefindmenu="rEFInd Kurulum Menüsü"
+
+txtoptional="İsteğe Bağlı"
+txtrecommandeasyinst="Önerilen kolay kurulum"
+txtset="%1 Belirle"
+txtgenerate="%1 Oluştur"
+txtedit="%1 Düzenle"
+txtinstall="%1 Kur"
+txtenable="%1 Etkinleştir"
+
+txtpressanykey="Devam etmek için bir tuşa basın..."
+
+txtarchdidesc="Masaüstü kurulum betiği yükle"
+txtinstallarchdi="Arch Linux Masaüstü Kurulum (archdi) çalışma ortamınızı kurmanız için kullanabileceğiniz ikinci betik.\n\nBu betiği çalıştırabilir yada kurabilirsiniz. Bir sonraki menüden seçin.\n\nArch Linux Masaüstü Kurulumu iki bağımlılık gerektirir :  wget ve libnewt.\n\npacstrap wget libnewt ?"
+txtarchdiinstallandlaunch="Archdi Kur ve Çalıştır"
+txtarchdiinstall="Archdi Kur"
+txtarchdilaunch="Archdi Çalıştır"

@@ -1,0 +1,117 @@
+
+
+
+
+
+
+
+
+
+# ttf-kochi-substitute не работает
+
+
+
+
+
+
+
+
+
+
+packages=(startwine)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -Sc --noconfirm
+pacman -Syy
+packages=(ananicy-cpp ananicy-rules grub-customizer-git zramswap stacer-bin hardinfo sddm-config-editor-git antimicrox xdman8 ttf-ms-fonts ttf-tahoma system-monitoring-center $IPC)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -Sc --noconfirm
+pacman -Syy
+packages=(onlyoffice-bin)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -Sc --noconfirm
+pacman -Syy
+packages=(gconf)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps/gc ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -U /mnt/home/$username/tools/apps/gc/*.tar.zst --noconfirm
+pacman -Sc --noconfirm
+pacman -Syy
+packages=(lib32-gconf)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps/gc ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -Sc --noconfirm
+pacman -Syy
+packages=(python-proxy_tools)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps/pypyweb ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -Sc --noconfirm
+pacman -Syy
+pacman -U /mnt/home/$username/tools/apps/pypyweb/*.tar.zst --noconfirm
+packages=(python-pywebview)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps/pypyweb ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -Sc --noconfirm
+pacman -Syy
+# <────────────────────────────────────────────────────────────────────>
+# <─────────────────────      GWE      ────────────────────────────────>
+# <────────────────────────────────────────────────────────────────────>
+packages=($PI $PP)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps/gwe ; makepkg -src --noconfirm"
+  cd ..
+done
+pacman -Sc --noconfirm
+pacman -Syy
+pacman -U /mnt/home/$username/tools/apps/gwe/*.tar.zst --noconfirm
+packages=($GWE)
+for package in "${packages[@]}"; do
+  git clone https://aur.archlinux.org/$package.git
+  chown manjaro /mnt/home/$username/tools/$package
+  cd $package
+  su manjaro -c "export PKGDEST=/mnt/home/$username/tools/apps/gwe ; makepkg -src --noconfirm"
+  cd ..
+done
+# <────────────────────────────────────────────────────────────────────>
+# <─────────────────────      GWE      ────────────────────────────────>
+# <────────────────────────────────────────────────────────────────────>

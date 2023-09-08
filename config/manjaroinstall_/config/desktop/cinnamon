@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+update='pacman -Syy'
+
+desktop='basestrap -i /mnt cinnamon cinnamon-wallpapers cinnamon-sounds gnome-terminal parcellite lightdm lightdm-slick-greeter lightdm-settings --noconfirm'
+
+displaymanager='systemctl enable lightdm --force'

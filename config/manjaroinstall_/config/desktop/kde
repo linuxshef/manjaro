@@ -1,0 +1,18 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+update='pacman -Syy'
+
+desktop='basestrap -i /mnt xorg xorg-server xorg-xwayland plasma cups kde-applications discover sddm sddm-kcm firefox packagekit-qt5 manjaro-settings-manager-kcm manjaro-settings-manager manjaro-icons bluez bluez-utils pamac-tray-icon-plasma libpamac libpamac-flatpak-plugin libpamac-snap-plugin pamac-cli pamac-gtk webapp-manager-manjaro --noconfirm'
+
+displaymanager='systemctl enable sddm --force'

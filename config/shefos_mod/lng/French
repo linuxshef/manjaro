@@ -1,0 +1,115 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Français
+# translator : matmoul (pseudo, name or e-mail.)
+# notes      : misc text...
+
+
+locale=fr_FR.UTF-8
+font=lat1-16
+
+
+txtexit="Quitter"
+txtback="Retour"
+txtignore="Ignorer"
+
+txtselectserver="Sélectionnez le serveur source :"
+
+txtmainmenu="Menu Principal"
+txtlanguage="Language"
+txtsetkeymap="Disposition clavier"
+txteditor="Éditeur"
+txtdiskpartmenu="Partionner le disque"
+txtselectpartsmenu="Sélectionner les partitions d'installation"
+txthelp="Aide"
+txtchangelog="Changelog"
+txtreboot="Redémarrer"
+
+txtautoparts="Partitionnement auto"
+txteditparts="Éditer partitions"
+
+txtautopartsconfirm="Périphérique séléctionné : %1\n\nToutes les données vont être effacées ! \n\nContinuer ?"
+
+txtautopartclear="Suppression des partitions"
+txtautopartcreate="Création de la partition %1"
+txthybridpartcreate="Définition du MBR hybride"
+txtautopartsettype="Définition du type de la partition %1"
+
+txtselectdevice="Sélectionnez le périphérique %1 :"
+txtselecteddevices="Périphériques sélectionnés :"
+
+txtformatmountmenu="Formatter et monter"
+txtformatdevices="Formatter les partitions"
+txtformatdevice="Formatter une partition"
+txtmount="Monter"
+txtunmount="Démonter"
+txtmountdesc="Installation ou configuration"
+
+txtformatdeviceconfirm="Attention, toutes les données sur les partitions sélectionnées vont être effacées ! \nFormatter les partitions ?"
+
+txtselectpartformat="Sélectionnez le format de la parition %1 :"
+txtformatingpart="Formater la partition %1 en"
+txtcreateluksdevice="Création de la partition luks :"
+txtopenluksdevice="Ouverture de la partition luks :"
+txtluksdevicecreated="La partition luks à été créée !"
+
+txtinstallmenu="Menu Installation"
+
+txtarchinstallmenu="Menu Installation Arch Linux"
+
+txtselectmirrorsbycountry="Mirroir par pays"
+txtselectcountry="Sélectionner pays"
+txteditmirrorlist="Éditer mirrorlist"
+txtinstallarchlinux="Installer Arch Linux"
+txtinstallarchlinuxkernel="Noyau"
+txtinstallarchlinuxfirmwares="Firmwares"
+txtinstallarchlinuxfilesystems="Systèmes de fichier"
+txtinstallarchlinuxcustompackagelist="Liste de paquet personnel"
+txtconfigarchlinux="Configurer Arch Linux"
+
+txtsethostname="Définir le nom de l'ordinateur"
+txtsetfont="Définir Font"
+txtsetlocale="Définir Locale"
+txtsettime="Définir l'horloge"
+txtsetrootpassword="Définir le mot de passe root"
+
+txthwclock="Horloge matériel :"
+txthwclockutc="UTC"
+txthwclocklocal="Local"
+
+txtbootloader="Bootloader"
+txtbootloadermenu="Choisissez votre bootloader"
+
+txtefibootmgr="efibootmgr est requis pour un système EFI."
+
+txtbootloadergrubmenu="Menu Installation Grub"
+txtrungrubmakeconfig="Exécuter grub-mkconfig ?"
+txtgrubluksdetected="Partition root chiffrée !\n\nAjouter cryptdevice= to GRUB_CMDLINE_LINUX dans /etc/default/grub ?"
+
+txtbootloadersyslinuxmenu="Menu Installation Syslinux"
+txtsyslinuxaddefibootmgr="Une installation EFI nécessite efibootmgr"
+txtsyslinuxaddgptfdisk="Un disque GPT nécessite gptfdisk"
+txtsyslinuxaddmtools="Un partition de boot FAT nécessite mtools"
+
+txtbootloadersystemdmenu="Menu Installation Systemd-boot"
+
+txtbootloaderrefindmenu="Menu Installation rEFInd"
+
+txtextrasmenu="Extras"
+
+txtoptional="Optionnel"
+txtrecommandeasyinst="Recommandé pour installation rapide"
+txtset="Définir %1"
+txtgenerate="Générer %1"
+txtedit="Éditer %1"
+txtinstall="Installer %1"
+txtenable="Activer %1"
+
+txtpressanykey="Appuyez sur une touche pour continuer."
+
+txtarchdidesc="Installation d'un poste de travail"
+txtinstallarchdi="Arch Linux Desktop Install (archdi) est un second script qui peut vous aidez à installer un poste de travail complet.\n\nVous pouvez exécuter ou installer le script en choisissant dans le menu suivant.\n\nArch Linux Desktop Install possède 2 dépendences : wget et libnewt.\n\nLes installer avec pacstrap wget libnewt ?"
+txtarchdiinstallandlaunch="Installer et exécuter archdi"
+txtarchdiinstall="Installer archdi"
+txtarchdilaunch="Exécuter archdi"

@@ -1,0 +1,19 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+update='pacman -Syy'
+
+desktop='basestrap -i /mnt xorg xorg-server xorg-xwayland plasma cups konsole dolphin kmix discover cups sddm sddm-kcm firefox packagekit-qt5 bluez bluez-utils --noconfirm'
+
+displaymanager='systemctl enable sddm --force'

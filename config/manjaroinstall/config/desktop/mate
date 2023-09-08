@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+update='pacman -Syy'
+
+desktop='basestrap -i /mnt mate mate-extra dconf-editor lightdm lightdm-slick-greeter lightdm-settings --noconfirm'
+
+displaymanager='systemctl enable lightdm --force'

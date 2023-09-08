@@ -1,0 +1,22 @@
+#!/bin/bash
+
+clear
+
+rm /etc/makepkg.conf
+
+mv config/makepkg/optimized-O3/makepkg.conf /etc/
+
+pacman-mirrors --fasttrack
+
+pacman -Syy --noconfirm base-devel extra-cmake-modules ccache meson autoconf-archive make cmake
+
+
+echo '
+
+
+
+
+                         Done  /   Готово
+
+
+'
