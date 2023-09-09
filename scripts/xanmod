@@ -6,7 +6,7 @@ source pacman
 
 sudo rm /etc/makepkg.conf
 
-sudo mv Makepkg/optimized-O3/makepkg.conf /etc/
+sudo mv ~/manjaro/Makepkg/optimized-O3/makepkg.conf /etc/
 
 sudo pacman-mirrors --fasttrack
 
@@ -22,7 +22,7 @@ sudo mkinitcpio -p linux-xanmod
 
 sudo update-grub
 
-cd ..
+cd ~/
 
 rm -Rf manjaro
 

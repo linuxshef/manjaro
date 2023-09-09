@@ -24,7 +24,7 @@ read main_menu
          "1")
 clear
 rm /etc/makepkg.conf
-mv Makepkg/optimized-O3/makepkg.conf /etc/
+mv ~/manjaro/Makepkg/optimized-O3/makepkg.conf /etc/
 cd ..
 rm -Rf manjaro
 echo'
@@ -50,7 +50,7 @@ read main_menu
          "1")
 clear
 rm /etc/makepkg.conf
-mv Makepkg/not-optimized/makepkg.conf /etc/
+mv ~/manjaro/Makepkg/not-optimized/makepkg.conf /etc/
 cd ..
 rm -Rf manjaro
 echo'
@@ -62,7 +62,7 @@ echo'
           "2")
 clear
 rm /etc/makepkg.conf
-mv Makepkg/optimized-O2/makepkg.conf /etc/
+mv ~/manjaro/Makepkg/optimized-O2/makepkg.conf /etc/
 cd ..
 rm -Rf manjaro
 echo'
@@ -74,7 +74,7 @@ echo'
           "3")
 clear
 rm /etc/makepkg.conf
-mv Makepkg/optimized-O3/makepkg.conf /etc/
+mv ~/manjaro/Makepkg/optimized-O3/makepkg.conf /etc/
 cd ..
 rm -Rf manjaro
 echo'
@@ -84,5 +84,5 @@ echo'
 '
       esac
       esac
-cd ..
+cd ~/
 rm -Rf manjaro

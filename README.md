@@ -10,7 +10,7 @@
 2) Скопировать и вставить эту команду
 
 
- git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./builds
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./builds
 
 
  --------------------------------------------
@@ -23,7 +23,7 @@
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./gpgfix
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./gpgfix
 
 
 
@@ -37,7 +37,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./gpgf
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./makepkgfix
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./makepkgfix
 
 
 ----------------------------------------------
@@ -50,7 +50,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./make
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./xanmod
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./xanmod
 
 
 ----------------------------------------------
@@ -63,7 +63,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./xanm
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./chrootfix
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./chrootfix
 
 
 ----------------------------------------------
@@ -75,7 +75,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./chro
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ;
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ;
 
 
 ----------------------------------------------
@@ -88,7 +88,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ;
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./amd
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./amd
 
 
 ----------------------------------------------
@@ -101,7 +101,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./amd
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./intel
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./intel
 
 
 ----------------------------------------------
@@ -114,7 +114,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./inte
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; android_firmware
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; android_firmware
 
 
 ----------------------------------------------
@@ -128,7 +128,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; androi
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./gamemode
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./gamemode
 
 
 ----------------------------------------------
@@ -141,7 +141,7 @@ git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./game
 
 2) Скопировать и вставить эту команду
 
-git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./soundfix
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./soundfix
 
 
 

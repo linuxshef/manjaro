@@ -6,7 +6,7 @@ source pacman
 
 sudo rm /etc/makepkg.conf
 
-sudo mv Makepkg/optimized-O3/makepkg.conf /etc/
+sudo mv ~/manjaro/Makepkg/optimized-O3/makepkg.conf /etc/
 
 sudo pacman-mirrors --fasttrack
 
@@ -18,7 +18,7 @@ sudo pacman -S  heimdall android-tools libmtp android-udev --noconfirm
 
 yay -S android-bash-completion adbfs-rootless-git adb-sync-git edl-git spflashtool5-bin --noconfirm
 
-cd ..
+cd ~/
 
 rm -Rf manjaro
 

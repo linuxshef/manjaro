@@ -63,7 +63,7 @@ clear
 
 sudo rm /etc/makepkg.conf
 
-sudo mv Makepkg/optimized-O3/makepkg.conf /etc/
+sudo mv ~/manjaro/Makepkg/optimized-O3/makepkg.conf /etc/
 
 sudo pacman-mirrors --fasttrack
 
@@ -112,7 +112,7 @@ sudo systemctl enable cpupower
 sudo systemctl enable haveged
 sudo systemctl enable --now dbus-broker.service
 
-cd ..
+cd ~/
 
 rm -Rf manjaro
 
