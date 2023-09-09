@@ -1,8 +1,0 @@
-#!/bin/bash
-mount -t proc proc /mnt/proc/
-mount --rbind /sys /mnt/sys/
-mount --rbind /dev /mnt/dev/
-mount --rbind /var /mnt/var/
-echo 'nameserver 8.8.8.8' > /mnt/etc/resolv.conf
-echo 'nameserver 8.8.4.4' >> /mnt/etc/resolv.conf
-chroot /mnt
