@@ -8,10 +8,9 @@
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./builds
-
+```
 
  --------------------------------------------
 
@@ -22,9 +21,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./gpgfix
-
+```
 
 
 ----------------------------------------------
@@ -36,9 +35,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./makepkgfix
-
+```
 
 ----------------------------------------------
 
@@ -49,9 +48,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./xanmod
-
+```
 
 ----------------------------------------------
 
@@ -62,9 +61,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./chrootfix
-
+```
 
 ----------------------------------------------
 
@@ -74,9 +73,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ;
-
+```
 
 ----------------------------------------------
 
@@ -87,9 +86,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./amd
-
+```
 
 ----------------------------------------------
 
@@ -100,9 +99,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./intel
-
+```
 
 ----------------------------------------------
 
@@ -113,9 +112,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; android_firmware
-
+```
 
 ----------------------------------------------
 
@@ -127,9 +126,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./gamemode
-
+```
 
 ----------------------------------------------
 
@@ -140,9 +139,9 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 1) Открыть терминал
 
 2) Скопировать и вставить эту команду
-
+```bash
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./soundfix
-
+```
 
 
 
