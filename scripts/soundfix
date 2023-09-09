@@ -1,0 +1,17 @@
+#!/bin/bash
+
+clear
+
+source pacman
+
+sudo pacman-mirrors --fasttrack
+
+sudo pacman -Syy archlinux-keyring manjaro-keyring --noconfirm
+
+sudo pacman -Sy pavucontrol pipewire pipewire-jack pipewire-alsa wireplumber libwireplumber lib32-alsa-plugins alsa-utils alsa-plugins  alsa-oss alsa-firmware sof-firmware alsa-ucm-conf  alsa-tools sof-tools --noconfirm
+
+cd ..
+
+rm -Rf manjaro
+
+reboot

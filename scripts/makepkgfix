@@ -1,0 +1,88 @@
+#!/bin/bash
+clear
+echo '
+
+
+
+                                                   Welcome to Makepackg Fix
+
+
+                                                   Выберите нужный вариант:
+
+
+'
+echo -e "\t
+                                        -> Установить конфиг по умолчанию  DEFAULT  (  1  )  "
+echo -e "\t
+
+                                        -> Показать дополнительные варианты ADVANCED (  2  )  "
+
+echo -n "
+                                                    -> Введите значение : "
+read main_menu
+      case "$main_menu" in
+         "1")
+clear
+rm /etc/makepkg.conf
+mv Makepkg/optimized-O3/makepkg.conf /etc/
+cd ..
+rm -Rf manjaro
+echo'
+
+                                                     DONE / ГОТОВО
+
+'
+          ;;
+         "2")
+echo -e "\t
+                                         -> Установить чистый конфиг    (  1  )  "
+echo -e "\t
+
+                                        -> Установить с оптимизаией O2  (  2  )  "
+echo -e "\t
+
+                                        -> Установить с оптимизаией O3  (  3  )  "
+
+echo -n "
+                                                    -> Введите значение : "
+read main_menu
+      case "$main_menu" in
+         "1")
+clear
+rm /etc/makepkg.conf
+mv Makepkg/not-optimized/makepkg.conf /etc/
+cd ..
+rm -Rf manjaro
+echo'
+
+                                                     DONE / ГОТОВО
+
+'
+          ;;
+          "2")
+clear
+rm /etc/makepkg.conf
+mv Makepkg/optimized-O2/makepkg.conf /etc/
+cd ..
+rm -Rf manjaro
+echo'
+
+                                                     DONE / ГОТОВО
+
+'
+          ;;
+          "3")
+clear
+rm /etc/makepkg.conf
+mv Makepkg/optimized-O3/makepkg.conf /etc/
+cd ..
+rm -Rf manjaro
+echo'
+
+                                                     DONE / ГОТОВО
+
+'
+      esac
+      esac
+cd ..
+rm -Rf manjaro

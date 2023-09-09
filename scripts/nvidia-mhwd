@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+echo '
+
+
+
+                ----------------------------------
+
+
+                Welcome to Nvidia driver installer
+
+                       Power by Linuxshef
+
+                               ;)
+
+                 ----------------------------------
+
+
+'
