@@ -2,7 +2,7 @@
 
 clear
 
-source pacman
+./pacman
 
 sudo rm /etc/makepkg.conf
 
