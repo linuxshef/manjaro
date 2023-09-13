@@ -143,7 +143,14 @@ cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts 
 cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./soundfix
 ```
 
+--------------------------------------------
+
+Оптимизация для работы
 
 
+1) Открыть терминал
 
-
+2) Скопировать и вставить эту команду
+```bash
+cd ~/ ; git clone https://github.com/linuxshef/manjaro.git ; cd manjaro/scripts ; ./works
+```
